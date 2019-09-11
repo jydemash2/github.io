@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+
+<HTML>
+
+<HEAD>
+
+<TITLE>IFixPC Job Application Form by Olajide Animashaun</TITLE>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.slidecontainer {
+  width: 20%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 20%;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+</style>
+
+</HEAD>
+
+<BODY>
+
+	<h1>IFixPC Job Application Form</h1>
+
+	
+
+
+		<form  ACTION="mailto:oanimashaun1@student.gsu.edu" method="post">
+
+		<h3>Personal Information</h3>
+
+		
+
+		First Name: <input type="text" name="fname" placeholder="First Name"autofocus>
+
+		Middle Name:<input type="text" name="mname" placeholder="Middle Name">
+
+		Last Name: <input type="text" name="lname" placeholder="Last Name">
+			
+		Nationality: <input type="text" name="Nationality" placeholder="Nationality">
+			
+		Date of birth:
+
+		<input type="date" name="Date of birth">
+			
+		<table>
+
+			<tr>
+
+				<td>Current Address</td>
+
+				
+
+			</tr>
+
+			
+
+			<tr>
+
+				<td><textarea rows="10" cols="30" name="currentaddress" placeholder="Type your address..."></textarea></td>
+
+			</tr>
+
+		</table>
+
+		Telephone: <input type="number" name="phone number" size="30" maxlength="4"
+
+		placeholder="Ex: 678-999-9999">
+
+		
+
+		<br><br>
+
+		
+
+		E-mail: <input type="E-mail" name="email" placeholder="email address required"required>
+
+		
+
+		Upload Resume: <input type="file" name="Resume">
+
+
+		<br>
+
+		
+
+		<hr>
+
+		
+		<br><br>
+	
+	
+
+		
+
+		<p><strong>Employment Desired</strong></p>
+
+		<br>
+		<p>Position interested in: <input type="text" name="PositionDesired" placeholder="Enter position here!"></p>
+
+		<p><strong>Or Select A Position:</strong></p>
+
+		
+
+		Team Manager: <input type="radio" name="position">
+
+		Developer: <input type="radio" name="position">
+
+		Customer Service: <input type="radio" name="position">
+
+		Technician: <input type="radio" name="postion">
+
+		
+
+		<br>
+	
+		<hr>
+
+		
+		<br><br>
+			<p><strong>Educational History and Qualifications</strong></p>
+					
+		<table>
+
+			<tr>
+
+				<td>Educational History</td>
+
+				
+
+			</tr>
+
+			
+
+			<tr>
+
+				<td><textarea rows="10" cols="30" name="EducationalHistory" placeholder="School/College, Course Studied, Qualifications Received, Grades:"></textarea></td>
+
+			</tr>
+
+		</table>
+
+			
+		<table>
+
+			<tr>
+
+				<td>Employment History</td>
+
+				
+
+			</tr>
+
+			
+
+			<tr>
+
+				<td><textarea rows="10" cols="30" name="EmploymentHistory" placeholder="Employer, Date, Position/responsibilities:"></textarea></td>
+
+			</tr>
+
+		</table>
+			
+			
+		<h1>Years Of Experience</h1>
+		<p>Please select from 1 - 10</p>
+
+		<div class="slidecontainer">
+		  <input type="range" min="1" max="10" value="1" class="slider" id="myRange">
+		  <p>Value: <span id="demo"></span></p>
+		</div>
+
+		<script>
+		var slider = document.getElementById("myRange");
+		var output = document.getElementById("demo");
+		output.innerHTML = slider.value;
+
+		slider.oninput = function() {
+		  output.innerHTML = this.value;
+		}
+		</script>
+			
+		<table>
+
+			<tr>
+
+				<td>Personal Statement</td>
+
+				
+
+			</tr>
+
+			
+
+			<tr>
+
+				<td><textarea rows="10" cols="30" name="PersonalStatement" placeholder="Pitch! Pitch Pitch!"></textarea></td>
+
+			</tr>
+
+		</table>
+		
+		
+
+		
+<hr>
+
+		
+		<br><br>
+		
+
+		<p><strong>REFERENCES:</strong></p>
+			
+		
+			
+		
+        <p><strong>First Referee Details:</strong></p>
+		Title: <input type="text" name="Title" placeholder="Title">
+			
+		First Name: <input type="text" name="FirstName" placeholder="First Name">
+
+		Family Name:<input type="text" name="FamilyName" placeholder="Family Name">
+
+		Occupation: <input type="text" name="Occupation" placeholder="Occupation">
+			
+		Relationship: <input type="text" name="Relationship" placeholder="Relationship">
+			
+	    Telephone: <input type="number" name="RTelephone1" size="30" maxlength="4"
+
+		placeholder="Ex: 678-999-9999">
+
+		
+
+		<br><br>
+
+		
+
+		E-mail: <input type="E-mail" name="REmail1" placeholder="email address">
+			
+		<table>
+
+			<tr>
+
+				<td>Address</td>
+
+				
+
+			</tr>
+
+			
+
+			<tr>
+
+				<td><textarea rows="10" cols="30" name="R1address" placeholder="Type referee address..."></textarea></td>
+
+			</tr>
+
+		</table>
+
+		
+		<p><strong>Second Referee Details:</strong></p>
+		Title: <input type="text" name="Title2" placeholder="Title">
+			
+		First Name: <input type="text" name="2FirstName" placeholder="First Name">
+
+		Family Name:<input type="text" name="2FamilyName" placeholder="Family Name">
+
+		Occupation: <input type="text" name="2Occupation" placeholder="Occupation">
+			
+		Relationship: <input type="text" name="2Relationship" placeholder="Relationship">
+			
+	    Telephone: <input type="number" name="2RTelephone1" size="30" maxlength="4"
+
+		placeholder="Ex: 678-999-9999">
+
+		
+
+		<br><br>
+
+		
+
+		E-mail: <input type="E-mail" name="2REmail1" placeholder="email address">
+			
+		<table>
+
+			<tr>
+
+				<td>Address</td>
+
+				
+
+			</tr>
+
+			
+
+			<tr>
+
+				<td><textarea rows="10" cols="30" name="2R1address" placeholder="Type referee address..."></textarea></td>
+
+			</tr>
+
+		</table>
+		
+
+		
+
+		<br>
+
+		
+
+		
+
+		<hr>
+
+
+
+		
+
+		
+
+		<hr>
+
+		
+
+		Submit Application: <input type="submit" name="submit">
+		Reset: <input type="Reset" name="Reset">
+
+			
+
+	</form>
+
+
+
+</BODY >
+
+</HTML > 

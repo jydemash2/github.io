@@ -1,0 +1,79 @@
+.bg{
+background-image:url("backgroundimage.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.myText{
+font-family:"Sans-serif", Arial, serif;
+color:#FFFFFF;
+font-weight:normal;
+text-align:left;
+}
+
+.highlightedText{
+	font-family:"Sans-serif", Arial, serif;
+	color:#FF0000;
+	font-weight:bold;
+	text-align:left;
+}
+
+#welcomeText{
+	text-align:center;
+	font-size:2em;
+	font-family:"Sans-serif", Arial, serif;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+.titleText{
+	text-align:left;
+	font-size:1.5em;
+	font-family:"Sans-serif", Arial, serif;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+a:link{
+	font-family:"Sans-serif", Arial, serif;
+	color:#20B2AA;
+	font-weight:normal;
+	text-align:left;
+}
+
+a:visited{
+	font-family:"Sans-serif", Arial, serif;
+	color:yellow;
+	font-weight:normal;
+	text-align:left;
+}
+
+a:hover{
+	font-family:"Sans-serif", Arial, serif;
+	color:blue;
+	font-weight:normal;
+	text-align:left;
+}
+
+table{
+	border-collapse: collapse;
+	width: 25%
+}
+
+th{
+	text-align:center;
+	padding:8px;
+	background-color: #20B2AA;
+	color: white;
+}
+
+td{
+	text-align: left;
+	padding:8px;
+	background-color:#228B22;
+	color:white;
+}
+
+
+
+
